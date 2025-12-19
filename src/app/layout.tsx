@@ -62,6 +62,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: 'https://boise-appliance-removal.com',
+  },
 }
 
 export const viewport: Viewport = {
