@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Boise Appliance Removal',
-  description: 'Contact Boise Appliance Removal for appliance removal service in the Treasure Valley. Call (208) 505-9352 for same-day service.',
+  description: 'Contact Boise Appliance Removal for appliance removal service in the Treasure Valley. Call (208) 943-5231 for same-day service.',
   alternates: { canonical: 'https://boise-appliance-removal.com/contact' },
 }
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
                   <Phone className="w-8 h-8 text-dark-blue flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-dark-blue mb-1">Phone</h3>
-                    <a href="tel:2085059352" className="text-lg text-gray-600 hover:text-[#0b7fb6]">(208) 505-9352</a>
+                    <a href="tel:2089435231" className="text-lg text-gray-600 hover:text-[#0b7fb6]">(208) 943-5231</a>
                     <p className="text-sm text-gray-500 mt-1">Fastest way to get a quote</p>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ export default function ContactPage() {
               <div className="bg-dark-blue p-8 rounded-xl text-center">
                 <h3 className="text-2xl font-bold text-white mb-4">Call for a Free Quote</h3>
                 <p className="text-gray-300 mb-6">Talk to a real person. We'll answer your questions and give you a straight price.</p>
-                <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-xl hover:bg-yellow-400 transition-colors">
-                  <Phone className="w-6 h-6" />(208) 505-9352
+                <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-xl hover:bg-yellow-400 transition-colors">
+                  <Phone className="w-6 h-6" />(208) 943-5231
                 </a>
               </div>
             </div>

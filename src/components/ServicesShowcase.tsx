@@ -6,28 +6,28 @@ const services = [
     title: 'Refrigerator & Freezer Removal',
     description: 'Getting a new fridge? We\'ll haul away your old one. Refrigerators and freezers are bulky, heavy, and contain refrigerants that need proper disposal. We handle all of that for you—just point to the old appliance and we\'ll take it from there. Same-day pickup available.',
     image: '/generated/refrigerator-removal.webp',
-    link: 'tel:2085059352',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Washer & Dryer Removal',
     description: 'Old washers and dryers are awkward to move and heavy as can be. We disconnect them (if needed), carry them out, and haul them away. Doesn\'t matter if they\'re in the basement, upstairs, or wedged into a tight laundry room—we\'ll get them out without damaging your home.',
     image: '/generated/washer-dryer-removal.webp',
-    link: 'tel:2085059352',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Stove & Oven Removal',
     description: 'Upgrading your kitchen? We remove old stoves, ranges, and wall ovens—gas or electric. Our team handles the heavy lifting and makes sure your old appliance is disposed of properly. Quick, clean, and no hassle on your end.',
     image: '/generated/oven-removal.webp',
-    link: 'tel:2085059352',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Appliance Recycling',
     description: 'Old appliances don\'t belong in landfills. We partner with local recyclers to ensure your old refrigerators, washers, dryers, and other appliances are recycled responsibly. Metals get reclaimed, refrigerants get properly disposed of, and you get peace of mind knowing you did the right thing.',
     image: '/generated/dishwasher-removal.webp',
-    link: 'tel:2085059352',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
 ]
@@ -96,9 +96,9 @@ export function ServicesShowcase() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

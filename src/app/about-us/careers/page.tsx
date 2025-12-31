@@ -48,8 +48,8 @@ export default function CareersPage() {
             <div className="bg-gradient-to-br from-slate-50 to-blue-50 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-dark-blue mb-4">Interested?</h3>
               <p className="text-gray-600 mb-4">Give us a call and we'll set up a time to chat. We're always looking for dependable people.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 943-5231
               </a>
             </div>
           </div>

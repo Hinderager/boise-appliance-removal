@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     default: 'Appliance Removal Boise | Same-Day Pickup | Appliance Removal Pros',
     template: '%s | Appliance Removal Boise',
   },
-  description: 'Professional appliance removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We haul away refrigerators, washers, dryers, stoves, and all old appliances. Same-day service available. Call (208) 505-9352.',
+  description: 'Professional appliance removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We haul away refrigerators, washers, dryers, stoves, and all old appliances. Same-day service available. Call (208) 943-5231.',
   keywords: [
     'appliance removal Boise',
     'appliance pickup Boise Idaho',
@@ -82,6 +82,10 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
@@ -96,19 +100,6 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-581QKP6ZE5');
-          `}
-        </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');
-            gtag('config', 'AW-11134633087');
           `}
         </Script>
         <Script id="meta-pixel" strategy="afterInteractive">

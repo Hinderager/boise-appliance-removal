@@ -12,7 +12,7 @@ export const faqs = [
   },
   {
     question: 'How much does it cost?',
-    answer: 'Most single appliances run between $75-$125. Refrigerators and larger items might be a bit more. Call us at (208) 505-9352 for a quick quote—no hidden fees, just straight pricing.'
+    answer: 'Most single appliances run between $75-$125. Refrigerators and larger items might be a bit more. Call us at (208) 943-5231 for a quick quote—no hidden fees, just straight pricing.'
   },
   {
     question: 'Can you come same-day?',
@@ -89,9 +89,9 @@ export function FAQ() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

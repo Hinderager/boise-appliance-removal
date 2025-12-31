@@ -11,7 +11,7 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 const faqData = [
   {
     question: 'How much does appliance removal cost in Boise?',
-    answer: 'Most single appliances run between $75-$125. Refrigerators and larger items might be a bit more. We provide free quotes with no hidden fees. Call (208) 505-9352 for pricing.',
+    answer: 'Most single appliances run between $75-$125. Refrigerators and larger items might be a bit more. We provide free quotes with no hidden fees. Call (208) 943-5231 for pricing.',
   },
   {
     question: 'What types of appliances do you remove?',
@@ -19,7 +19,7 @@ const faqData = [
   },
   {
     question: 'Do you offer same-day appliance removal?',
-    answer: 'Yes! We offer same-day appliance removal service in the Boise and Treasure Valley area. Call us in the morning and we can usually be there by afternoon. For urgent situations, call (208) 505-9352.',
+    answer: 'Yes! We offer same-day appliance removal service in the Boise and Treasure Valley area. Call us in the morning and we can usually be there by afternoon. For urgent situations, call (208) 943-5231.',
   },
   {
     question: 'Do you disconnect appliances before removal?',
@@ -52,8 +52,8 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "name": `Boise Appliance Removal - ${city}`,
     "description": `Professional appliance removal and hauling services in ${city}, Idaho. Same-day pickup available. We remove refrigerators, washers, dryers, stoves, and all types of appliances.`,
     "url": "https://boise-appliance-removal.com",
-    "telephone": "+1-208-505-9352",
-    "email": "info@boise-appliance-removal.com",
+    "telephone": "+1-208-943-5231",
+    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,
