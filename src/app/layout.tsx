@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: 'Appliance Removal Services | Boise, Meridian, Nampa Idaho',
     description: 'Professional appliance removal and hauling services in the Treasure Valley. We remove refrigerators, washers, dryers, stoves, and all old appliances. Same-day service available.',
     url: 'https://boise-appliance-removal.com',
-    siteName: 'Boise Appliance Removal',
+    siteName: 'Top Shelf Appliance Removal',
     locale: 'en_US',
     type: 'website',
   },
