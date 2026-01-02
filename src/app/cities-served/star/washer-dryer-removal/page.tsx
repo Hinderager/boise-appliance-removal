@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { Phone, CheckCircle } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Washer & Dryer Removal in Star, Idaho | Boise Appliance Removal',
@@ -16,6 +17,7 @@ export default function StarWasherDryerRemovalPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Fast, professional washer & dryer removal for Star homes and businesses.</p>
         </div>
       </section>
+      <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
