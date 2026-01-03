@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const montserrat = Montserrat({
@@ -24,8 +25,8 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-appliance-removal.com'),
   title: {
-    default: 'Appliance Removal Boise | Same-Day Pickup | Appliance Removal Pros',
-    template: '%s | Appliance Removal Boise',
+    default: 'Boise Appliance Removal | Same-Day Pickup | Top Shelf',
+    template: '%s | Boise Appliance Removal',
   },
   description: 'Professional appliance removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We haul away refrigerators, washers, dryers, stoves, and all old appliances. Same-day service available. Call (208) 943-5231.',
   keywords: [
@@ -84,6 +85,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Appliance Removal" siteUrl="https://boise-appliance-removal.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
