@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, MapPin } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Appliance Removal in Eagle, Idaho | Boise Appliance Removal',
@@ -18,6 +19,7 @@ export default function EaglePage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Fast, professional appliance removal service for Eagle residents.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

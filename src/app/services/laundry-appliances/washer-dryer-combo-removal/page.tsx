@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone, CheckCircle } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Washer/Dryer Combo Removal in Boise | Boise Appliance Removal',
@@ -17,6 +18,7 @@ export default function WasherDryerComboRemovalPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Combo unit removal throughout the Treasure Valley.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

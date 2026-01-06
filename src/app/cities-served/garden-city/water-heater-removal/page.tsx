@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone, CheckCircle } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Water Heater Removal in Garden City, Idaho | Boise Appliance Removal',
@@ -17,6 +18,7 @@ export default function GardenCityWaterHeaterRemovalPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Fast, professional water heater removal for Garden City homes and businesses.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

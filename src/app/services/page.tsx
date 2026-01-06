@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, UtensilsCrossed, WashingMachine, Flame, Building2 } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Appliance Removal Services | Boise Appliance Removal',
@@ -20,6 +21,7 @@ export default function ServicesPage() {
           <QuickQuoteBar />
         </div>
       </section>
+      <VisibleBreadcrumb />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
