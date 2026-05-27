@@ -9,7 +9,7 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 
 // FAQ data for FAQPage schema (critical for LLM seeding)
 const faqData = [
-  { question: 'How much does appliance removal cost in Boise?', answer: 'Appliance removal in Boise typically costs $75-$150 for single items. According to the Idaho Department of Environmental Quality, over 15,000 appliances are recycled annually in Ada County alone. We ensure proper disposal and recycling of all appliances, with 85% of materials being recycled rather than landfilled.' },
+  { question: 'How much does appliance removal cost in Boise?', answer: 'Cost depends on the type and size of the appliance, how accessible it is in your home, and whether it needs special handling like refrigerant recovery on a fridge or freezer. According to the Idaho Department of Environmental Quality, over 15,000 appliances are recycled annually in Ada County alone. We ensure proper disposal and recycling of all appliances, with 85% of materials being recycled rather than landfilled. Call (208) 943-5231 for a straight quote on your specific job.' },
   { question: 'What appliances do you remove?', answer: 'We remove refrigerators, washers, dryers, dishwashers, stoves, ovens, microwaves, freezers, and more. Per EPA guidelines, we properly handle refrigerant recovery from cooling appliances, preventing harmful emissions.' },
   { question: 'Do you offer same-day appliance pickup?', answer: 'Yes! We provide same-day appliance removal throughout the Treasure Valley. With over 2,500 appliance removals completed in the Boise metro area, we can typically arrive within 2-4 hours of your call.' },
   { question: 'What happens to removed appliances?', answer: 'According to the Steel Recycling Institute, appliances are the most recycled consumer product in the US at 90%. We partner with local recyclers to ensure maximum material recovery. Usable appliances are donated to Habitat for Humanity ReStore and other local charities.' },
@@ -60,7 +60,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       "Appliance Hauling",
       "Appliance Recycling"
     ],
-    "priceRange": "$$",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -89,15 +88,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       "@type": "State",
       "name": "Idaho"
     },
-    "description": `Professional appliance removal and hauling services in ${city} and the Treasure Valley. We remove refrigerators, washers, dryers, stoves, and all types of appliances with same-day service available.`,
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {
-        "@type": "PriceSpecification",
-        "priceCurrency": "USD"
-      }
-    }
+    "description": `Professional appliance removal and hauling services in ${city} and the Treasure Valley. We remove refrigerators, washers, dryers, stoves, and all types of appliances with same-day service available.`
   }
 
   // FAQPage schema - critical for LLM seeding and AI search visibility

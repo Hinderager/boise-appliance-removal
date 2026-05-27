@@ -246,15 +246,15 @@ export default function WhyDIYApplianceRemovalIsRisky() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              Truck rental: $30-50
+              Truck rental, plus mileage
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              Gas: $10-20
+              Fuel to drive across town
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              Disposal fees: $20-50 (more if refrigerant handling is required)
+              Disposal fees at the transfer station (more if refrigerant handling is required)
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -270,7 +270,7 @@ export default function WhyDIYApplianceRemovalIsRisky() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              Professional removal: $75-200, done in 15 minutes, no risk to you.
+              Professional removal: One straight price, done in about 15 minutes, no risk to you.
             </p>
 
             <p className="text-gray-600 leading-relaxed">

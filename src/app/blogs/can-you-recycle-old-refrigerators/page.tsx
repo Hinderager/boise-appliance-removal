@@ -135,7 +135,7 @@ export default function CanYouRecycleOldRefrigerators() {
 
             <h3 className="text-xl font-bold text-gunmetal mb-4">Idaho Power Rebate Program</h3>
             <p className="text-gray-600 leading-relaxed mb-6">
-              This is genuinely the best deal if you qualify. Idaho Power will pick up your old refrigerator or freezer from your home for free and pay you $30-50 for the unit. They handle all the recycling properly. The catch: the unit must be between 10 and 30 cubic feet, plugged in and working, and you need to be an Idaho Power customer. They don't take commercial units or units with broken seals. But if you qualify? Free pickup plus cash in your pocket.
+              This is genuinely the best deal if you qualify. Idaho Power will pick up your old refrigerator or freezer from your home for free and pay you a rebate for the unit. They handle all the recycling properly. The catch: the unit must be between 10 and 30 cubic feet, plugged in and working, and you need to be an Idaho Power customer. They don't take commercial units or units with broken seals. But if you qualify? Free pickup plus a rebate in your pocket.
             </p>
 
             <h3 className="text-xl font-bold text-gunmetal mb-4">Scrap Metal Recyclers</h3>

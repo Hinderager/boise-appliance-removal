@@ -76,7 +76,7 @@ export default function WhatToDoWithOldAppliancesBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              Most major retailers in Boise—Home Depot, Lowe's, Best Buy—offer haul-away service when they deliver your new unit. They'll typically charge $15-50 for this service, but it saves you the hassle entirely. The delivery crew takes your old appliance when they drop off the new one.
+              Most major retailers in Boise—Home Depot, Lowe's, Best Buy—offer haul-away service when they deliver your new unit. They'll usually charge a small fee for this service, but it saves you the hassle entirely. The delivery crew takes your old appliance when they drop off the new one.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -103,7 +103,7 @@ export default function WhatToDoWithOldAppliancesBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              You can get $30-50 just for letting them haul away your old unit. They'll come pick it up for free. Why do they do this? Old appliances are energy hogs. That refrigerator from 1995 uses three times more electricity than a new one. By getting these old units out of circulation, the utility company reduces overall energy demand.
+              You can get a small rebate just for letting them haul away your old unit. They'll come pick it up for free. Why do they do this? Old appliances are energy hogs. That refrigerator from 1995 uses three times more electricity than a new one. By getting these old units out of circulation, the utility company reduces overall energy demand.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -195,7 +195,7 @@ export default function WhatToDoWithOldAppliancesBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              It costs more than DIY options, typically $75-200 depending on the appliance type and location. But you don't have to lift a finger, worry about disposal regulations, or figure out where to take it.
+              It costs more than DIY options, and the price depends on the appliance type, location in your home, and access. But you don't have to lift a finger, worry about disposal regulations, or figure out where to take it.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">

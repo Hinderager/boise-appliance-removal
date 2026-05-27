@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { DollarSign, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'How Much Does Appliance Removal Cost in Boise? 2025 Pricing | Appliance Removal Pros',
-  description: 'Appliance removal in Boise costs $75-200. Get the real breakdown of pricing factors for hauling away old refrigerators, washers, and more in the Treasure Valley.',
+  title: 'How Much Does Appliance Removal Cost in Boise? | Appliance Removal Pros',
+  description: 'What actually affects the cost of appliance removal in Boise? Here\'s the real breakdown of pricing factors for hauling away old refrigerators, washers, and more in the Treasure Valley.',
   alternates: {
     canonical: 'https://boise-appliance-removal.com/blogs/how-much-does-appliance-removal-cost',
   },
@@ -46,13 +46,13 @@ export default function HowMuchDoesApplianceRemovalCost() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Let's get straight to the numbers. In Boise, you'll typically pay between $75 and $200 for professional appliance removal.
+              The honest answer? It depends. Appliance removal isn't a one-size-fits-all service, and anyone quoting you a flat rate without asking about your situation probably isn't telling you the whole story.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
-              That's a big range, so let me explain what affects the price. Whether you're hauling away an old refrigerator in Meridian or getting rid of a washer-dryer set in Nampa, understanding these factors helps you budget accurately.
+              Whether you're hauling away an old refrigerator in Meridian or getting rid of a washer-dryer set in Nampa, a handful of factors decide what the job actually takes. Understanding them helps you get a fair quote and avoid surprises.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Here's what actually determines what you'll pay for appliance removal in the Treasure Valley.
+              Here's what actually drives the price for appliance removal in the Treasure Valley.
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function HowMuchDoesApplianceRemovalCost() {
               A small microwave costs less to remove than a side-by-side refrigerator. Makes sense—bigger items require more labor and take up more truck space.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Here's a rough breakdown: Small appliances like microwaves and window AC units run $50-75. Medium appliances—washers, dryers, dishwashers—cost $75-125. Large appliances like refrigerators and stoves are $100-175. Extra large commercial units or built-in appliances can run $150-250.
+              Roughly speaking: small appliances like microwaves and window AC units are the easiest. Medium items—washers, dryers, dishwashers—are a step up. Large appliances like refrigerators and stoves take more work. Commercial units or built-in appliances are the most involved.
             </p>
 
             <h3 className="text-xl font-bold text-gunmetal mb-4">Location and Access</h3>
@@ -110,15 +110,15 @@ export default function HowMuchDoesApplianceRemovalCost() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>DIY with Truck Rental:</strong> $50-100 plus your time and effort. You'll need someone to help with heavy items, and you'll need to find a proper disposal facility that accepts appliances.
+              <strong>DIY with Truck Rental:</strong> Cheapest on paper, but add your time, the rental, fuel, and disposal fees. You'll need someone strong to help with heavy items and a proper disposal facility that accepts appliances.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Retailer Haul-Away:</strong> $15-50 but only when buying new. Can't use this option for getting rid of appliances without a purchase.
+              <strong>Retailer Haul-Away:</strong> Usually the cheapest paid option—but only when you're buying a new replacement from them. Can't use this if you just want the old one gone.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Utility Rebate Programs:</strong> Free (and you get paid) but only for refrigerators and freezers. Idaho Power offers $30-50 for qualifying units in the Treasure Valley.
+              <strong>Utility Rebate Programs:</strong> Free pickup, and Idaho Power pays a small rebate—but only for qualifying refrigerators and freezers in the Treasure Valley.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -126,7 +126,7 @@ export default function HowMuchDoesApplianceRemovalCost() {
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              <strong>Professional Removal:</strong> $75-200. We do all the work, handle disposal properly, and you're done in one appointment.
+              <strong>Professional Removal:</strong> Costs more than DIY, but we do all the work, handle disposal properly, and you're done in one appointment.
             </p>
           </div>
         </div>

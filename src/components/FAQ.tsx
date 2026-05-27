@@ -12,7 +12,7 @@ export const faqs = [
   },
   {
     question: 'How much does it cost?',
-    answer: 'Most single appliances run between $75-$125. Refrigerators and larger items might be a bit more. Call us at (208) 943-5231 for a quick quote—no hidden fees, just straight pricing.'
+    answer: 'It depends on a few things—the type and size of the appliance, where it sits in your home, how tough the access is (basement, narrow stairs, second floor), and whether it needs special disposal like a fridge with coolant. Call us at (208) 943-5231 with the details and we\'ll give you a straight price up front. No hidden fees.'
   },
   {
     question: 'Can you come same-day?',

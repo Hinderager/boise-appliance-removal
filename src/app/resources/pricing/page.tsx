@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
-import { Phone, DollarSign, Home, ArrowUpDown, Truck } from 'lucide-react'
+import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Pricing Guide | Boise Appliance Removal',
-  description: 'How much does appliance removal cost in Boise? Learn about our pricing, what affects the cost, and how to get a free quote.',
+  description: 'How does appliance removal pricing work in Boise? Learn what affects the cost and how to get a free, honest quote.',
   alternates: { canonical: 'https://boise-appliance-removal.com/resources/pricing' },
 }
 
@@ -14,7 +14,7 @@ export default function PricingPage() {
       <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Appliance Removal Pricing</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Transparent pricing with no hidden fees.</p>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Straight pricing. No hidden fees. Call for an honest quote.</p>
         </div>
       </section>
       <VisibleBreadcrumb />
@@ -23,66 +23,36 @@ export default function PricingPage() {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none text-gray-600 mb-12">
               <p>Here's the truth: every appliance removal job is a little different.</p>
-              <p>A fridge in a garage is easier than a fridge in a basement. A single washing machine costs less than hauling out an entire kitchen's worth of appliances.</p>
-              <p>That said, here's how we price things and what you can expect to pay.</p>
+              <p>A fridge in a garage is easier than a fridge in a basement. A single washing machine is less work than hauling out an entire kitchen's worth of appliances.</p>
+              <p>That's why we don't list flat rates. Instead, here's what we look at when putting together your quote.</p>
             </div>
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold text-dark-blue mb-6">Typical Price Ranges</h2>
+              <h2 className="text-2xl font-bold text-dark-blue mb-6">What Affects Your Price</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-dark-blue mb-2">Single Appliance</h3>
-                  <p className="text-3xl font-bold text-[#FFC845] mb-3">$75 - $150</p>
-                  <p className="text-gray-600 text-sm">Refrigerator, washer, dryer, stove, dishwasher, or similar-sized appliance.</p>
+                  <h3 className="text-lg font-bold text-dark-blue mb-2">Type &amp; Size of Appliance</h3>
+                  <p className="text-gray-600 text-sm">A microwave or window AC unit is one thing. A full-size refrigerator, water heater, or commercial freezer is another. Bigger and heavier means more time and crew.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-dark-blue mb-2">Multiple Appliances</h3>
-                  <p className="text-3xl font-bold text-[#FFC845] mb-3">$200 - $400</p>
-                  <p className="text-gray-600 text-sm">Full kitchen set, laundry room cleanout, or multiple large appliances.</p>
+                  <h3 className="text-lg font-bold text-dark-blue mb-2">Number of Items</h3>
+                  <p className="text-gray-600 text-sm">One appliance is straightforward. A full kitchen set, laundry room cleanout, or multi-unit haul gets bundled.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-dark-blue mb-2">Water Heater</h3>
-                  <p className="text-3xl font-bold text-[#FFC845] mb-3">$100 - $175</p>
-                  <p className="text-gray-600 text-sm">Includes disconnection assistance if needed and proper disposal.</p>
+                  <h3 className="text-lg font-bold text-dark-blue mb-2">Location &amp; Access</h3>
+                  <p className="text-gray-600 text-sm">Garage with a wide door is easy. Basement with narrow stairs, a second-floor walk-up, or tight turns takes more effort.</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-bold text-dark-blue mb-2">Disposal Requirements</h3>
+                  <p className="text-gray-600 text-sm">Refrigerators and freezers need certified refrigerant recovery. Gas appliances need different handling than electric. That shapes the disposal side of the job.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-lg font-bold text-dark-blue mb-2">Commercial Equipment</h3>
-                  <p className="text-3xl font-bold text-[#FFC845] mb-3">Call for Quote</p>
-                  <p className="text-gray-600 text-sm">Restaurant equipment, industrial freezers, and other commercial appliances.</p>
+                  <p className="text-gray-600 text-sm">Restaurant equipment, industrial freezers, and built-in commercial units are case-by-case. Give us a call with the details.</p>
                 </div>
-              </div>
-            </div>
-
-            <div className="mb-12">
-              <h2 className="text-2xl font-bold text-dark-blue mb-6">What Affects the Price</h2>
-              <div className="space-y-4">
-                <div className="flex items-start gap-4 bg-gradient-to-br from-slate-50 to-blue-50 p-5 rounded-lg">
-                  <Home className="w-8 h-8 text-[#FFC845] flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-dark-blue mb-1">Location in Your Home</h4>
-                    <p className="text-gray-600">A fridge in the garage is easy. A fridge in a basement with narrow stairs? That takes more time and effort.</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4 bg-gradient-to-br from-slate-50 to-blue-50 p-5 rounded-lg">
-                  <ArrowUpDown className="w-8 h-8 text-[#FFC845] flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-dark-blue mb-1">ArrowUpDown and Access</h4>
-                    <p className="text-gray-600">Ground floor with wide doorways? Easy. Third floor walk-up with tight turns? That's harder.</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4 bg-gradient-to-br from-slate-50 to-blue-50 p-5 rounded-lg">
-                  <DollarSign className="w-8 h-8 text-[#FFC845] flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-dark-blue mb-1">Number of Appliances</h4>
-                    <p className="text-gray-600">One appliance is straightforward. Multiple items get bundled pricing.</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4 bg-gradient-to-br from-slate-50 to-blue-50 p-5 rounded-lg">
-                  <Truck className="w-8 h-8 text-[#FFC845] flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-dark-blue mb-1">Disposal Fees</h4>
-                    <p className="text-gray-600">Most appliances are recyclable, but some require special disposal (like refrigerators with coolant).</p>
-                  </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-bold text-dark-blue mb-2">Same-Day vs. Scheduled</h3>
+                  <p className="text-gray-600 text-sm">Standard scheduling is the easiest on cost. Rush or same-day jobs may run a little higher depending on availability.</p>
                 </div>
               </div>
             </div>
