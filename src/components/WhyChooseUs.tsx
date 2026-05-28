@@ -1,30 +1,30 @@
-import { Heart, Shield, Clock, Leaf, Users, Lock, Award, CheckCircle } from 'lucide-react'
+import { Heart, Shield, Clock, Leaf, Users, CheckCircle as CheckCircleIcon, Award, CheckCircle } from 'lucide-react'
 
 const features = [
   {
     icon: Heart,
-    title: 'We Get It',
-    description: 'Hoarding is a mental health condition, not a choice. Our crew is trained to work with people going through this. No lectures, no dirty looks. Just help.',
+    title: 'We Do the Heavy Lifting',
+    description: 'Fridges, washers, water heaters—the big stuff is no problem. Our crew handles the lifting, hauling, and disposal so you don\'t have to.',
   },
   {
     icon: Shield,
     title: 'Licensed & Insured',
-    description: 'Fully licensed and insured. We handle hazardous materials, biohazards, and heavy debris the right way.',
+    description: 'Fully licensed and insured. We handle refrigerant recovery, heavy equipment, and gas appliances the right way.',
   },
   {
     icon: Clock,
     title: 'Same-Day If You Need It',
-    description: 'Some situations can\'t wait. We offer same-day service throughout the Treasure Valley when timing is critical.',
+    description: 'Fridge dies and you need it gone today? Call before noon and we can usually be there same afternoon.',
   },
   {
-    icon: Lock,
-    title: 'Nobody Has to Know',
-    description: 'Unmarked trucks. No company logos. We keep things quiet so your neighbors don\'t ask questions.',
+    icon: CheckCircleIcon,
+    title: 'Straight Quotes, No Surprises',
+    description: 'We quote the job before we start. That\'s the price you pay. No hidden fees, no upcharges when we\'re done.',
   },
   {
     icon: Leaf,
-    title: 'We Donate What We Can',
-    description: 'We work with local charities and recyclers. Over 60% of what we remove stays out of the landfill.',
+    title: 'We Recycle What We Can',
+    description: 'Most appliances are recyclable. We sort metals, recover refrigerants, and donate working units when possible. Less goes to the landfill.',
   },
   {
     icon: Users,
@@ -36,7 +36,7 @@ const features = [
 const credentials = [
   'Background-checked team',
   'OSHA safety trained',
-  'Biohazard certified',
+  'EPA refrigerant handling',
   'BBB Accredited',
   'Fully bonded',
   '5-star Google rating',
@@ -52,7 +52,7 @@ export function WhyChooseUs() {
             Why Work With Us?
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            We do hoarding cleanup in Boise, Meridian, Nampa, Caldwell, and Eagle. Here&apos;s what makes us different.
+            We do appliance removal in Boise, Meridian, Nampa, Caldwell, and Eagle. Here&apos;s what makes us different.
           </p>
         </div>
 

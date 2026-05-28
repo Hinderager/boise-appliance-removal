@@ -3,8 +3,8 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Hoarding Cleanup Pros',
-  description: 'Terms of service for Hoarding Cleanup Pros hoarding cleanup services in Boise and the Treasure Valley.',
+  title: 'Terms of Service | Boise Appliance Removal',
+  description: 'Terms of service for Boise Appliance Removal hauling and disposal services in Boise and the Treasure Valley.',
   alternates: {
     canonical: 'https://boise-appliance-removal.com/terms',
   },
@@ -20,17 +20,17 @@ export default function TermsPage() {
 
           <div className="prose prose-lg max-w-none text-gray-600">
             <p>
-              Welcome to Hoarding Cleanup Pros. By accessing our website or using our services, you agree to be bound by these Terms of Service. Please read them carefully.
+              Welcome to Boise Appliance Removal. By accessing our website or using our services, you agree to be bound by these Terms of Service. Please read them carefully.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">1. Services</h2>
             <p>
-              Hoarding Cleanup Pros provides professional hoarding cleanup, estate cleanout, and related services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding areas in Idaho. All services are subject to availability and our ability to safely perform the work.
+              Boise Appliance Removal provides professional appliance removal, hauling, and disposal services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding areas in Idaho. All services are subject to availability and our ability to safely perform the work.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">2. Service Agreement</h2>
             <p>
-              By requesting services from Hoarding Cleanup Pros, you represent that you are the property owner or have authorization from the property owner to request and authorize cleanup services. You agree to provide accurate information about the property and scope of work needed.
+              By requesting services from Boise Appliance Removal, you represent that you are the property owner or have authorization from the property owner to request and authorize appliance removal. You agree to provide accurate information about the property, the appliances to be removed, and any access considerations.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">3. Estimates and Pricing</h2>
@@ -65,30 +65,30 @@ export default function TermsPage() {
               <li>Provide safe access to the property for our team and equipment</li>
               <li>Inform us of any known hazards, including but not limited to biohazards, structural damage, pest infestations, or hazardous materials</li>
               <li>Secure pets during service appointments</li>
-              <li>Ensure utilities (electricity, water) are available if needed for cleaning</li>
+              <li>Ensure appliances are accessible and any necessary disconnections (water, gas, electrical) are completed before our arrival, or arrange for us to handle them</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">7. Item Disposal and Donations</h2>
+            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">7. Appliance Disposal and Recycling</h2>
             <ul>
-              <li>By authorizing cleanup, you grant us permission to remove and dispose of items as agreed upon</li>
-              <li>We strongly recommend identifying and removing any valuables, important documents, jewelry, cash, or irreplaceable items before cleanup begins</li>
-              <li>We will make reasonable efforts to set aside items that appear valuable for your review</li>
-              <li>Usable items may be donated to local charities; recyclable materials will be recycled when possible</li>
-              <li>Once items leave the property, they cannot be recovered</li>
+              <li>By authorizing removal, you grant us permission to haul and dispose of the agreed-upon appliances</li>
+              <li>We strongly recommend removing any personal items from inside appliances before removal</li>
+              <li>Working appliances in good condition may be donated to local charities such as Habitat for Humanity ReStore</li>
+              <li>Recyclable materials (metals, refrigerants, plastics) will be processed at licensed facilities whenever possible</li>
+              <li>Once appliances leave the property, they cannot be recovered</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">8. Liability and Insurance</h2>
             <ul>
-              <li>Hoarding Cleanup Pros is fully licensed and insured</li>
+              <li>Boise Appliance Removal is fully licensed and insured</li>
               <li>We carry general liability insurance and workers&apos; compensation coverage</li>
-              <li>We take reasonable care to protect your property during cleanup</li>
-              <li>We are not responsible for pre-existing damage, hidden damage, or damage to items concealed within hoarded materials</li>
+              <li>We take reasonable care to protect your property during appliance removal</li>
+              <li>We are not responsible for pre-existing damage or hidden damage discovered during removal (e.g., damage behind a fridge or under a washer)</li>
               <li>Our liability is limited to the cost of services provided</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">9. Confidentiality</h2>
+            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">9. Privacy and Professionalism</h2>
             <p>
-              We understand the sensitive nature of hoarding situations. We maintain strict confidentiality regarding our clients, their properties, and the services we provide. Our team members are trained to be discreet and professional at all times.
+              We respect our customers&apos; privacy. Our team members are trained to be professional, courteous, and respectful of your home and property at every appointment.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">10. Communication Consent</h2>
@@ -103,7 +103,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">12. Intellectual Property</h2>
             <p>
-              All content on this website, including text, images, logos, and design, is the property of Hoarding Cleanup Pros and is protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.
+              All content on this website, including text, images, logos, and design, is the property of Boise Appliance Removal and is protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">13. Dispute Resolution</h2>
