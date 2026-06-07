@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Midway Nampa | Top Shelf',
+  title: 'Appliance Removal Midway Nampa | Boise Appliance Removal',
   description: 'Appliance Removal services in Midway, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Midway', 'appliance removal Midway Nampa', 'Midway nampa appliance removal'],
   alternates: {

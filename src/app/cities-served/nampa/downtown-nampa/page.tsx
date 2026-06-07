@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Downtown Nampa Nampa | Top Shelf',
+  title: 'Appliance Removal Downtown Nampa Nampa | Boise Appliance Removal',
   description: 'Appliance Removal services in Downtown Nampa, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Downtown Nampa', 'appliance removal Downtown Nampa Nampa', 'Downtown Nampa nampa appliance removal'],
   alternates: {

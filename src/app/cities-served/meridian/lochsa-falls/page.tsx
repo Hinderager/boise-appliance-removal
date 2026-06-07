@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Lochsa Falls Meridian | Top Shelf',
+  title: 'Appliance Removal Lochsa Falls Meridian | Boise Appliance Removal',
   description: 'Appliance Removal services in Lochsa Falls, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Lochsa Falls', 'appliance removal Lochsa Falls Meridian', 'Lochsa Falls meridian appliance removal'],
   alternates: {

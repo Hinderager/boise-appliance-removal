@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Southeast Boise Boise | Top Shelf',
+  title: 'Appliance Removal Southeast Boise Boise | Boise Appliance Removal',
   description: 'Appliance Removal services in Southeast Boise, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Southeast Boise', 'appliance removal Southeast Boise Boise', 'Southeast Boise boise appliance removal'],
   alternates: {

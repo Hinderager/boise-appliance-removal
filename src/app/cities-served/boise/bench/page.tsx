@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal The Bench Boise | Top Shelf',
+  title: 'Appliance Removal The Bench Boise | Boise Appliance Removal',
   description: 'Appliance Removal services in The Bench, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal The Bench', 'appliance removal The Bench Boise', 'The Bench boise appliance removal'],
   alternates: {

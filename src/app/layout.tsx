@@ -25,7 +25,7 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-appliance-removal.com'),
   title: {
-    default: 'Boise Appliance Removal | Same-Day Pickup | Top Shelf',
+    default: 'Boise Appliance Removal | Same-Day Pickup',
     template: '%s | Boise Appliance Removal',
   },
   description: 'Professional appliance removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. We haul away refrigerators, washers, dryers, stoves, and all old appliances. Same-day service available. Call (208) 943-5231.',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: 'Appliance Removal Services | Boise, Meridian, Nampa Idaho',
     description: 'Professional appliance removal and hauling services in the Treasure Valley. We remove refrigerators, washers, dryers, stoves, and all old appliances. Same-day service available.',
     url: 'https://boise-appliance-removal.com',
-    siteName: 'Top Shelf Appliance Removal',
+    siteName: 'Boise Appliance Removal',
     locale: 'en_US',
     type: 'website',
   },
@@ -82,7 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${oswald.variable} ${montserrat.variable} scroll-smooth`}>
         <StructuredData />
-        <BreadcrumbSchema siteName="Top Shelf Appliance Removal" siteUrl="https://boise-appliance-removal.com" />
+        <BreadcrumbSchema siteName="Boise Appliance Removal" siteUrl="https://boise-appliance-removal.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />

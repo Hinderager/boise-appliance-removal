@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Harris Ranch Boise | Top Shelf',
+  title: 'Appliance Removal Harris Ranch Boise | Boise Appliance Removal',
   description: 'Appliance Removal services in Harris Ranch, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Harris Ranch', 'appliance removal Harris Ranch Boise', 'Harris Ranch boise appliance removal'],
   alternates: {

@@ -23,11 +23,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Top Shelf Appliance Removal - ${city}`,
+    "name": "Boise Appliance Removal",
     "description": `Professional appliance removal and hauling services in ${city}, Idaho. Same-day pickup available. We remove refrigerators, washers, dryers, stoves, and all types of appliances.`,
     "url": "https://boise-appliance-removal.com",
     "telephone": "+1-208-943-5231",
-    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,
@@ -82,7 +81,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Appliance Removal Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Top Shelf Appliance Removal"
+      "name": "Boise Appliance Removal"
     },
     "areaServed": {
       "@type": "State",

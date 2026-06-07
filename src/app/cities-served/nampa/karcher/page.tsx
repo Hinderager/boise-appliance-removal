@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Karcher Nampa | Top Shelf',
+  title: 'Appliance Removal Karcher Nampa | Boise Appliance Removal',
   description: 'Appliance Removal services in Karcher, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Karcher', 'appliance removal Karcher Nampa', 'Karcher nampa appliance removal'],
   alternates: {

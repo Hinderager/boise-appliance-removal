@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Paramount Meridian | Top Shelf',
+  title: 'Appliance Removal Paramount Meridian | Boise Appliance Removal',
   description: 'Appliance Removal services in Paramount, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal Paramount', 'appliance removal Paramount Meridian', 'Paramount meridian appliance removal'],
   alternates: {
