@@ -10,9 +10,9 @@ const serviceAreas = [
 ]
 
 const resources = [
-  { name: 'What We Take', href: '/what-we-take' },
+  { name: 'What We Take', href: '/services' },
   { name: 'Recycling Options', href: '/recycling' },
-  { name: 'Pricing Guide', href: '/pricing' },
+  { name: 'Pricing Guide', href: '/resources/pricing' },
   { name: 'Blog', href: '/blogs' },
 ]
 
