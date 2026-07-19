@@ -766,6 +766,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    // Neighborhood pages
+    ...[
+      'boise/bench',
+      'boise/downtown',
+      'boise/harris-ranch',
+      'boise/north-end',
+      'boise/southeast-boise',
+      'boise/west-boise',
+      'meridian/lochsa-falls',
+      'meridian/paramount',
+      'meridian/ten-mile',
+      'meridian/tuscany',
+      'nampa/downtown-nampa',
+      'nampa/karcher',
+      'nampa/lake-lowell',
+      'nampa/midway',
+    ].map((slug) => ({
+      url: `${baseUrl}/cities-served/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
     // Legal pages
     {
       url: `${baseUrl}/privacy`,
