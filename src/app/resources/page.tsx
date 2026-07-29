@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Phone, HelpCircle, DollarSign, List, Recycle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Resources | Boise Appliance Removal',
+  title: 'Resources',
   description: 'Helpful resources for appliance removal in Boise. FAQs, pricing guides, recycling info, and what we take.',
   alternates: { canonical: 'https://boise-appliance-removal.com/resources' },
 }

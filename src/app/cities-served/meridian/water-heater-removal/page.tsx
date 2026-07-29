@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Water Heater Removal in Meridian, Idaho | Boise Appliance Removal',
+  title: 'Water Heater Removal in Meridian, Idaho',
   description: 'Professional water heater removal in Meridian, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/meridian/water-heater-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/meridian/water-heater-removal' },
 }
 
 export default function MeridianWaterHeaterRemovalPage() {

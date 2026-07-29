@@ -5,9 +5,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal in Garden City, Idaho | Boise Appliance Removal',
+  title: 'Appliance Removal in Garden City, Idaho',
   description: 'Professional appliance removal in Garden City, ID. Same-day service, eco-friendly disposal, upfront pricing. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/garden-city' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/garden-city' },
 }
 
 export default function GardenCityPage() {
@@ -30,35 +30,35 @@ export default function GardenCityPage() {
             </div>
             <h2 className="text-2xl font-bold text-dark-blue mb-6">Services in Garden City</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/garden-city/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Refrigerator Removal</h3>
                 <p className="text-sm text-gray-600">Professional refrigerator removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Washer & Dryer Removal</h3>
                 <p className="text-sm text-gray-600">Professional washer & dryer removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Stove Removal</h3>
                 <p className="text-sm text-gray-600">Professional stove removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Dishwasher Removal</h3>
                 <p className="text-sm text-gray-600">Professional dishwasher removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Water Heater Removal</h3>
                 <p className="text-sm text-gray-600">Professional water heater removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Freezer Removal</h3>
                 <p className="text-sm text-gray-600">Professional freezer removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Microwave Removal</h3>
                 <p className="text-sm text-gray-600">Professional microwave removal in Garden City</p>
               </Link>
-              <Link href="/garden-city/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/garden-city/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Commercial Equipment</h3>
                 <p className="text-sm text-gray-600">Professional commercial equipment in Garden City</p>
               </Link>

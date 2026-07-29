@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Furnace Removal in Boise | Boise Appliance Removal',
+  title: 'Furnace Removal in Boise',
   description: 'Old furnace removal and disposal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/large-appliances/furnace-removal' },
 }

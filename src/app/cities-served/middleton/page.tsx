@@ -5,9 +5,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal in Middleton, Idaho | Boise Appliance Removal',
+  title: 'Appliance Removal in Middleton, Idaho',
   description: 'Professional appliance removal in Middleton, ID. Same-day service, eco-friendly disposal, upfront pricing. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/middleton' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/middleton' },
 }
 
 export default function MiddletonPage() {
@@ -30,35 +30,35 @@ export default function MiddletonPage() {
             </div>
             <h2 className="text-2xl font-bold text-dark-blue mb-6">Services in Middleton</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/middleton/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Refrigerator Removal</h3>
                 <p className="text-sm text-gray-600">Professional refrigerator removal in Middleton</p>
               </Link>
-              <Link href="/middleton/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Washer & Dryer Removal</h3>
                 <p className="text-sm text-gray-600">Professional washer & dryer removal in Middleton</p>
               </Link>
-              <Link href="/middleton/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Stove Removal</h3>
                 <p className="text-sm text-gray-600">Professional stove removal in Middleton</p>
               </Link>
-              <Link href="/middleton/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Dishwasher Removal</h3>
                 <p className="text-sm text-gray-600">Professional dishwasher removal in Middleton</p>
               </Link>
-              <Link href="/middleton/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Water Heater Removal</h3>
                 <p className="text-sm text-gray-600">Professional water heater removal in Middleton</p>
               </Link>
-              <Link href="/middleton/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Freezer Removal</h3>
                 <p className="text-sm text-gray-600">Professional freezer removal in Middleton</p>
               </Link>
-              <Link href="/middleton/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Microwave Removal</h3>
                 <p className="text-sm text-gray-600">Professional microwave removal in Middleton</p>
               </Link>
-              <Link href="/middleton/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/middleton/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Commercial Equipment</h3>
                 <p className="text-sm text-gray-600">Professional commercial equipment in Middleton</p>
               </Link>

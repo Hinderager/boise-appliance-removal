@@ -5,9 +5,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal in Star, Idaho | Boise Appliance Removal',
+  title: 'Appliance Removal in Star, Idaho',
   description: 'Professional appliance removal in Star, ID. Same-day service, eco-friendly disposal, upfront pricing. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/star' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/star' },
 }
 
 export default function StarPage() {
@@ -30,35 +30,35 @@ export default function StarPage() {
             </div>
             <h2 className="text-2xl font-bold text-dark-blue mb-6">Services in Star</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/star/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Refrigerator Removal</h3>
                 <p className="text-sm text-gray-600">Professional refrigerator removal in Star</p>
               </Link>
-              <Link href="/star/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Washer & Dryer Removal</h3>
                 <p className="text-sm text-gray-600">Professional washer & dryer removal in Star</p>
               </Link>
-              <Link href="/star/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Stove Removal</h3>
                 <p className="text-sm text-gray-600">Professional stove removal in Star</p>
               </Link>
-              <Link href="/star/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Dishwasher Removal</h3>
                 <p className="text-sm text-gray-600">Professional dishwasher removal in Star</p>
               </Link>
-              <Link href="/star/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Water Heater Removal</h3>
                 <p className="text-sm text-gray-600">Professional water heater removal in Star</p>
               </Link>
-              <Link href="/star/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Freezer Removal</h3>
                 <p className="text-sm text-gray-600">Professional freezer removal in Star</p>
               </Link>
-              <Link href="/star/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Microwave Removal</h3>
                 <p className="text-sm text-gray-600">Professional microwave removal in Star</p>
               </Link>
-              <Link href="/star/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/star/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Commercial Equipment</h3>
                 <p className="text-sm text-gray-600">Professional commercial equipment in Star</p>
               </Link>

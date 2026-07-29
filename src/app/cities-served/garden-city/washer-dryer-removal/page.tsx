@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Washer & Dryer Removal in Garden City, Idaho | Boise Appliance Removal',
+  title: 'Washer & Dryer Removal in Garden City, Idaho',
   description: 'Professional washer & dryer removal in Garden City, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/garden-city/washer-dryer-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/garden-city/washer-dryer-removal' },
 }
 
 export default function GardenCityWasherDryerRemovalPage() {

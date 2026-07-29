@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Restaurant Equipment Removal in Boise | Boise Appliance Removal',
+  title: 'Restaurant Equipment Removal in Boise',
   description: 'Commercial kitchen equipment removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/commercial-appliances/restaurant-equipment-removal' },
 }

@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Refrigerator Removal in Caldwell, Idaho | Boise Appliance Removal',
+  title: 'Refrigerator Removal in Caldwell, Idaho',
   description: 'Professional refrigerator removal in Caldwell, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/caldwell/refrigerator-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/caldwell/refrigerator-removal' },
 }
 
 export default function CaldwellRefrigeratorRemovalPage() {

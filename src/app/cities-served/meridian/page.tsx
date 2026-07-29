@@ -5,9 +5,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal in Meridian, Idaho | Boise Appliance Removal',
+  title: 'Appliance Removal in Meridian, Idaho',
   description: 'Professional appliance removal in Meridian, ID. Same-day service, eco-friendly disposal, upfront pricing. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/meridian' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/meridian' },
 }
 
 export default function MeridianPage() {
@@ -30,35 +30,35 @@ export default function MeridianPage() {
             </div>
             <h2 className="text-2xl font-bold text-dark-blue mb-6">Services in Meridian</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/meridian/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Refrigerator Removal</h3>
                 <p className="text-sm text-gray-600">Professional refrigerator removal in Meridian</p>
               </Link>
-              <Link href="/meridian/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Washer & Dryer Removal</h3>
                 <p className="text-sm text-gray-600">Professional washer & dryer removal in Meridian</p>
               </Link>
-              <Link href="/meridian/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Stove Removal</h3>
                 <p className="text-sm text-gray-600">Professional stove removal in Meridian</p>
               </Link>
-              <Link href="/meridian/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Dishwasher Removal</h3>
                 <p className="text-sm text-gray-600">Professional dishwasher removal in Meridian</p>
               </Link>
-              <Link href="/meridian/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Water Heater Removal</h3>
                 <p className="text-sm text-gray-600">Professional water heater removal in Meridian</p>
               </Link>
-              <Link href="/meridian/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Freezer Removal</h3>
                 <p className="text-sm text-gray-600">Professional freezer removal in Meridian</p>
               </Link>
-              <Link href="/meridian/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Microwave Removal</h3>
                 <p className="text-sm text-gray-600">Professional microwave removal in Meridian</p>
               </Link>
-              <Link href="/meridian/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/meridian/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Commercial Equipment</h3>
                 <p className="text-sm text-gray-600">Professional commercial equipment in Meridian</p>
               </Link>

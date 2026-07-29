@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dishwasher Removal in Star, Idaho | Boise Appliance Removal',
+  title: 'Dishwasher Removal in Star, Idaho',
   description: 'Professional dishwasher removal in Star, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/star/dishwasher-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/star/dishwasher-removal' },
 }
 
 export default function StarDishwasherRemovalPage() {

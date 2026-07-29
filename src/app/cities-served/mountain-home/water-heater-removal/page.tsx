@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Water Heater Removal in Mountain Home, Idaho | Boise Appliance Removal',
+  title: 'Water Heater Removal in Mountain Home, Idaho',
   description: 'Professional water heater removal in Mountain Home, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/mountain-home/water-heater-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/mountain-home/water-heater-removal' },
 }
 
 export default function MountainHomeWaterHeaterRemovalPage() {

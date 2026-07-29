@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Microwave Removal in Meridian, Idaho | Boise Appliance Removal',
+  title: 'Microwave Removal in Meridian, Idaho',
   description: 'Professional microwave removal in Meridian, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/meridian/microwave-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/meridian/microwave-removal' },
 }
 
 export default function MeridianMicrowaveRemovalPage() {

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal North End Boise | Boise Appliance Removal',
+  title: 'Appliance Removal North End Boise',
   description: 'Appliance Removal services in North End, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['appliance removal North End', 'appliance removal North End Boise', 'North End boise appliance removal'],
   alternates: {

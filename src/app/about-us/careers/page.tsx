@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Truck, Clock, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Career Opportunities | Boise Appliance Removal',
+  title: 'Career Opportunities',
   description: 'Join the Boise Appliance Removal team. We\'re hiring drivers, haulers, and customer service professionals in the Treasure Valley.',
   alternates: { canonical: 'https://boise-appliance-removal.com/about-us/careers' },
 }

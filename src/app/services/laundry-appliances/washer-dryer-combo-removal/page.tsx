@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Washer/Dryer Combo Removal in Boise | Boise Appliance Removal',
+  title: 'Washer/Dryer Combo Removal in Boise',
   description: 'Combo unit removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/laundry-appliances/washer-dryer-combo-removal' },
 }

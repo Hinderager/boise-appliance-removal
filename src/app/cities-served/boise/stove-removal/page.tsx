@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Stove Removal in Boise, Idaho | Boise Appliance Removal',
+  title: 'Stove Removal in Boise, Idaho',
   description: 'Professional stove removal in Boise, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/boise/stove-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/boise/stove-removal' },
 }
 
 export default function BoiseStoveRemovalPage() {

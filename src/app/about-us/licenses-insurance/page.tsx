@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Shield, FileCheck, Truck } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Licenses & Insurance | Boise Appliance Removal',
+  title: 'Licenses & Insurance',
   description: 'Fully licensed and insured appliance removal service in Boise, Idaho. General liability insurance, worker\'s compensation, and proper disposal permits.',
   alternates: { canonical: 'https://boise-appliance-removal.com/about-us/licenses-insurance' },
 }

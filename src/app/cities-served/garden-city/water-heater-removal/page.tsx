@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Water Heater Removal in Garden City, Idaho | Boise Appliance Removal',
+  title: 'Water Heater Removal in Garden City, Idaho',
   description: 'Professional water heater removal in Garden City, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/garden-city/water-heater-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/garden-city/water-heater-removal' },
 }
 
 export default function GardenCityWaterHeaterRemovalPage() {

@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Clock, Recycle, DollarSign, Truck, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Why Choose Us | Boise Appliance Removal',
+  title: 'Why Choose Us',
   description: 'Why choose Boise Appliance Removal? Same-day service, eco-friendly disposal, upfront pricing, and no hidden fees. Serving the Treasure Valley.',
   alternates: { canonical: 'https://boise-appliance-removal.com/about-us/why-choose-us' },
 }

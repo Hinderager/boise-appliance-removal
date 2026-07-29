@@ -5,9 +5,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal in Boise, Idaho | Boise Appliance Removal',
+  title: 'Appliance Removal in Boise, Idaho',
   description: 'Professional appliance removal in Boise, ID. Same-day service, eco-friendly disposal, upfront pricing. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/boise' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/boise' },
 }
 
 export default function BoisePage() {
@@ -30,35 +30,35 @@ export default function BoisePage() {
             </div>
             <h2 className="text-2xl font-bold text-dark-blue mb-6">Services in Boise</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/boise/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/refrigerator-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Refrigerator Removal</h3>
                 <p className="text-sm text-gray-600">Professional refrigerator removal in Boise</p>
               </Link>
-              <Link href="/boise/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/washer-dryer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Washer & Dryer Removal</h3>
                 <p className="text-sm text-gray-600">Professional washer & dryer removal in Boise</p>
               </Link>
-              <Link href="/boise/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/stove-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Stove Removal</h3>
                 <p className="text-sm text-gray-600">Professional stove removal in Boise</p>
               </Link>
-              <Link href="/boise/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/dishwasher-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Dishwasher Removal</h3>
                 <p className="text-sm text-gray-600">Professional dishwasher removal in Boise</p>
               </Link>
-              <Link href="/boise/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/water-heater-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Water Heater Removal</h3>
                 <p className="text-sm text-gray-600">Professional water heater removal in Boise</p>
               </Link>
-              <Link href="/boise/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/freezer-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Freezer Removal</h3>
                 <p className="text-sm text-gray-600">Professional freezer removal in Boise</p>
               </Link>
-              <Link href="/boise/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/microwave-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Microwave Removal</h3>
                 <p className="text-sm text-gray-600">Professional microwave removal in Boise</p>
               </Link>
-              <Link href="/boise/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
+              <Link href="/cities-served/boise/commercial-equipment-removal" className="bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-dark-blue">Commercial Equipment</h3>
                 <p className="text-sm text-gray-600">Professional commercial equipment in Boise</p>
               </Link>

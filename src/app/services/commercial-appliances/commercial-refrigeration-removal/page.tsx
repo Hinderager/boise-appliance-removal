@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Commercial Refrigeration in Boise | Boise Appliance Removal',
+  title: 'Commercial Refrigeration in Boise',
   description: 'Walk-in coolers and commercial fridges in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/commercial-appliances/commercial-refrigeration-removal' },
 }

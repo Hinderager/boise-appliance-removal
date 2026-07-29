@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, CheckCircle, XCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'What We Take | Boise Appliance Removal',
+  title: 'What We Take',
   description: 'Complete list of appliances we remove in Boise: refrigerators, washers, dryers, stoves, dishwashers, water heaters, and more.',
   alternates: { canonical: 'https://boise-appliance-removal.com/resources/what-we-take' },
 }

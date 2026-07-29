@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dryer Removal in Boise | Boise Appliance Removal',
+  title: 'Dryer Removal in Boise',
   description: 'Electric and gas dryer removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/laundry-appliances/dryer-removal' },
 }

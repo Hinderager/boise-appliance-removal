@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Freezer Removal in Kuna, Idaho | Boise Appliance Removal',
+  title: 'Freezer Removal in Kuna, Idaho',
   description: 'Professional freezer removal in Kuna, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/kuna/freezer-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/kuna/freezer-removal' },
 }
 
 export default function KunaFreezerRemovalPage() {

@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dishwasher Removal in Eagle, Idaho | Boise Appliance Removal',
+  title: 'Dishwasher Removal in Eagle, Idaho',
   description: 'Professional dishwasher removal in Eagle, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/eagle/dishwasher-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/eagle/dishwasher-removal' },
 }
 
 export default function EagleDishwasherRemovalPage() {

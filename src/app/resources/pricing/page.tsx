@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Pricing Guide | Boise Appliance Removal',
+  title: 'Pricing Guide',
   description: 'How does appliance removal pricing work in Boise? Learn what affects the cost and how to get a free, honest quote.',
   alternates: { canonical: 'https://boise-appliance-removal.com/resources/pricing' },
 }

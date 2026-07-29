@@ -4,7 +4,7 @@ import { FAQ } from '@/components/FAQ'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'FAQ | Boise Appliance Removal',
+  title: 'FAQ',
   description: 'Frequently asked questions about appliance removal in Boise. Pricing, scheduling, what we take, and how the process works.',
   alternates: { canonical: 'https://boise-appliance-removal.com/resources/faq' },
 }

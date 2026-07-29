@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dishwasher Removal in Garden City, Idaho | Boise Appliance Removal',
+  title: 'Dishwasher Removal in Garden City, Idaho',
   description: 'Professional dishwasher removal in Garden City, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/garden-city/dishwasher-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/garden-city/dishwasher-removal' },
 }
 
 export default function GardenCityDishwasherRemovalPage() {

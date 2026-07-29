@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Commercial Equipment in Nampa, Idaho | Boise Appliance Removal',
+  title: 'Commercial Equipment in Nampa, Idaho',
   description: 'Professional commercial equipment in Nampa, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/nampa/commercial-equipment-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/nampa/commercial-equipment-removal' },
 }
 
 export default function NampaCommercialEquipmentPage() {

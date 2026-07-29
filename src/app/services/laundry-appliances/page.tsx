@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Laundry Appliances Removal | Boise Appliance Removal',
+  title: 'Laundry Appliances Removal',
   description: 'Laundry appliance removal in Boise. Professional removal and disposal throughout the Treasure Valley.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/laundry-appliances' },
 }

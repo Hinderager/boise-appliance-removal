@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Recycle, Leaf, Factory, Trash2 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Appliance Recycling | Boise Appliance Removal',
+  title: 'Appliance Recycling',
   description: 'Learn how we recycle appliances in Boise. Eco-friendly disposal practices, metal recycling, and keeping appliances out of landfills.',
   alternates: { canonical: 'https://boise-appliance-removal.com/resources/recycling' },
 }

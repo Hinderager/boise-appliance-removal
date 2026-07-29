@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Boise Appliance Removal',
+  title: 'Contact Us',
   description: 'Contact Boise Appliance Removal for appliance removal service in the Treasure Valley. Call (208) 943-5231 for same-day service.',
   alternates: { canonical: 'https://boise-appliance-removal.com/contact' },
 }

@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Boise Appliance Removal',
+  title: 'Terms of Service',
   description: 'Terms of service for Boise Appliance Removal hauling and disposal services in Boise and the Treasure Valley.',
   alternates: {
     canonical: 'https://boise-appliance-removal.com/terms',

@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Dishwasher Removal in Nampa, Idaho | Boise Appliance Removal',
+  title: 'Dishwasher Removal in Nampa, Idaho',
   description: 'Professional dishwasher removal in Nampa, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/nampa/dishwasher-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/nampa/dishwasher-removal' },
 }
 
 export default function NampaDishwasherRemovalPage() {

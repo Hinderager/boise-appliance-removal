@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Washing Machine Removal in Boise | Boise Appliance Removal',
+  title: 'Washing Machine Removal in Boise',
   description: 'Washer disconnection and removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/laundry-appliances/washer-removal' },
 }

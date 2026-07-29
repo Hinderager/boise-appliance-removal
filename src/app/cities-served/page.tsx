@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Service Areas | Cities We Serve | Boise Appliance Removal',
+  title: 'Service Areas | Cities We Serve',
   description: 'Appliance removal and recycling services throughout the Treasure Valley. Serving Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding areas. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-appliance-removal.com/cities-served' },
 }

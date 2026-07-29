@@ -4,7 +4,7 @@ import { GoogleReviews } from '@/components/GoogleReviews'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Customer Reviews | Boise Appliance Removal',
+  title: 'Customer Reviews',
   description: 'Read reviews from Boise homeowners and businesses who used our appliance removal service. Real feedback from real customers.',
   alternates: { canonical: 'https://boise-appliance-removal.com/about-us/testimonials' },
 }

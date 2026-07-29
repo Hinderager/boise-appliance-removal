@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Microwave Removal in Boise | Boise Appliance Removal',
+  title: 'Microwave Removal in Boise',
   description: 'Built-in and countertop microwave removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/kitchen-appliances/microwave-removal' },
 }

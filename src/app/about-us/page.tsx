@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Phone, Award, Shield, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us | Boise Appliance Removal',
+  title: 'About Us',
   description: 'Learn about Boise Appliance Removal. Local appliance removal experts serving the Treasure Valley. Licensed, insured, and committed to responsible disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/about-us' },
 }

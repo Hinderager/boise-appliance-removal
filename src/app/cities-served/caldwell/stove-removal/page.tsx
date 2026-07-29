@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Stove Removal in Caldwell, Idaho | Boise Appliance Removal',
+  title: 'Stove Removal in Caldwell, Idaho',
   description: 'Professional stove removal in Caldwell, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/caldwell/stove-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/caldwell/stove-removal' },
 }
 
 export default function CaldwellStoveRemovalPage() {

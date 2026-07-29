@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Refrigerator Removal in Nampa, Idaho | Boise Appliance Removal',
+  title: 'Refrigerator Removal in Nampa, Idaho',
   description: 'Professional refrigerator removal in Nampa, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/nampa/refrigerator-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/nampa/refrigerator-removal' },
 }
 
 export default function NampaRefrigeratorRemovalPage() {

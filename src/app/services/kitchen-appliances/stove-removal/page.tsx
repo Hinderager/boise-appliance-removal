@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Stove & Oven Removal in Boise | Boise Appliance Removal',
+  title: 'Stove & Oven Removal in Boise',
   description: 'Gas and electric stove removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/kitchen-appliances/stove-removal' },
 }

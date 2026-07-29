@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'AC Unit Removal in Boise | Boise Appliance Removal',
+  title: 'AC Unit Removal in Boise',
   description: 'Air conditioner removal with proper refrigerant disposal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/large-appliances/ac-unit-removal' },
 }

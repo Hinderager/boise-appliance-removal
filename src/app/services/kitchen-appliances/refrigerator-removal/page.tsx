@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Refrigerator Removal in Boise | Boise Appliance Removal',
+  title: 'Refrigerator Removal in Boise',
   description: 'Professional refrigerator and freezer removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/kitchen-appliances/refrigerator-removal' },
 }

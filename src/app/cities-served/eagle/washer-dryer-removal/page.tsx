@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Washer & Dryer Removal in Eagle, Idaho | Boise Appliance Removal',
+  title: 'Washer & Dryer Removal in Eagle, Idaho',
   description: 'Professional washer & dryer removal in Eagle, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/eagle/washer-dryer-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/eagle/washer-dryer-removal' },
 }
 
 export default function EagleWasherDryerRemovalPage() {

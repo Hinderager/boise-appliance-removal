@@ -22,7 +22,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/recycling" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/resources/recycling" className="text-white/80 hover:text-white transition-colors">
                   Recycling Options
                 </Link>
               </li>

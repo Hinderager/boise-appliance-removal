@@ -4,7 +4,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Water Heater Removal in Boise | Boise Appliance Removal',
+  title: 'Water Heater Removal in Boise',
   description: 'Electric and gas water heater removal in Boise, Idaho. Fast, professional service with eco-friendly disposal.',
   alternates: { canonical: 'https://boise-appliance-removal.com/services/large-appliances/water-heater-removal' },
 }

@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Washer & Dryer Removal in Caldwell, Idaho | Boise Appliance Removal',
+  title: 'Washer & Dryer Removal in Caldwell, Idaho',
   description: 'Professional washer & dryer removal in Caldwell, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/caldwell/washer-dryer-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/caldwell/washer-dryer-removal' },
 }
 
 export default function CaldwellWasherDryerRemovalPage() {

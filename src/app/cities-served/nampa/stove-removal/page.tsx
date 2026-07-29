@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Stove Removal in Nampa, Idaho | Boise Appliance Removal',
+  title: 'Stove Removal in Nampa, Idaho',
   description: 'Professional stove removal in Nampa, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/nampa/stove-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/nampa/stove-removal' },
 }
 
 export default function NampaStoveRemovalPage() {

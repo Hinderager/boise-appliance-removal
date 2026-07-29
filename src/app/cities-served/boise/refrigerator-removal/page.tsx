@@ -4,9 +4,9 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Refrigerator Removal in Boise, Idaho | Boise Appliance Removal',
+  title: 'Refrigerator Removal in Boise, Idaho',
   description: 'Professional refrigerator removal in Boise, ID. Fast service, upfront pricing, eco-friendly disposal. Call (208) 943-5231.',
-  alternates: { canonical: 'https://boise-appliance-removal.com/boise/refrigerator-removal' },
+  alternates: { canonical: 'https://boise-appliance-removal.com/cities-served/boise/refrigerator-removal' },
 }
 
 export default function BoiseRefrigeratorRemovalPage() {
