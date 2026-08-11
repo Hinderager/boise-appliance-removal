@@ -7,16 +7,6 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
   'Eagle': { lat: 43.6957, lng: -116.3535 },
 }
 
-// FAQ data for FAQPage schema (critical for LLM seeding)
-const faqData = [
-  { question: 'How much does appliance removal cost in Boise?', answer: 'Cost depends on the type and size of the appliance, how accessible it is in your home, and whether it needs special handling like refrigerant recovery on a fridge or freezer. According to the Idaho Department of Environmental Quality, over 15,000 appliances are recycled annually in Ada County alone. We ensure proper disposal and recycling of all appliances, with 85% of materials being recycled rather than landfilled. Call (208) 943-5231 for a straight quote on your specific job.' },
-  { question: 'What appliances do you remove?', answer: 'We remove refrigerators, washers, dryers, dishwashers, stoves, ovens, microwaves, freezers, and more. Per EPA guidelines, we properly handle refrigerant recovery from cooling appliances, preventing harmful emissions.' },
-  { question: 'Do you offer same-day appliance pickup?', answer: 'Yes! We provide same-day appliance removal throughout the Treasure Valley. With over 2,500 appliance removals completed in the Boise metro area, we can typically arrive within 2-4 hours of your call.' },
-  { question: 'What happens to removed appliances?', answer: 'According to the Steel Recycling Institute, appliances are the most recycled consumer product in the US at 90%. We partner with local recyclers to ensure maximum material recovery. Usable appliances are donated to Habitat for Humanity ReStore and other local charities.' },
-  { question: 'Do you remove appliances from basements?', answer: 'Absolutely. We handle appliance removal from any location including basements, garages, second floors, and tight spaces. Our trained team has completed over 500 basement appliance removals in the Boise area.' },
-  { question: 'What areas do you serve?', answer: 'We serve all of Ada and Canyon Counties including Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, and Middleton. Population data from the US Census shows these areas have grown 25% since 2010, increasing demand for appliance removal services.' }
-]
-
 export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const coords = cityCoordinates[city] || cityCoordinates['Boise']
 
@@ -62,9 +52,9 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "08:00",
-        "closes": "18:00"
+        "closes": "21:00"
       }
     ],
     "sameAs": [],
@@ -90,19 +80,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Professional appliance removal and hauling services in ${city} and the Treasure Valley. We remove refrigerators, washers, dryers, stoves, and all types of appliances with same-day service available.`
   }
 
-  // FAQPage schema - critical for LLM seeding and AI search visibility
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  }
 
   return (
     <>
@@ -113,10 +90,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
     </>
   )
